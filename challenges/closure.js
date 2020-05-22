@@ -27,9 +27,9 @@ function sumation(num1){
   return num1 * (num1 + 1) / 2;
 }
 
-sumation(1);
-sumation(2);
-sumation(3);
-sumation(4);
-sumation(5);
-sumation(6);
+console.log(sumation(1));
+console.log(sumation(2));
+console.log(sumation(3));
+console.log(sumation(4));  
+console.log(sumation(5));
+console.log(sumation(6));
