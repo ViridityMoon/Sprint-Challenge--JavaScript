@@ -25,7 +25,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-
+    .map returns a new array of elements and passes each element back into the callback.
 2. Explain the difference between a callback and a higher order function.
     A callback function is a function that is called back into a function, particularly known as a higher order function.
 3. What is closure?
@@ -36,7 +36,7 @@ Edit this document to include your answers after each question. Make sure to lea
     New Binding - Used in constructor functions, this refers to the object that is created.
     Explicit Binding - Whenever using the call or apply method, this is explicitly defined.
 5. Why do we need super() in an extended class?
-    super() is what brings the 
+    super() is what brings the elements to the extended class.
 ### Task 1 - Project Set up
 
 Follow these steps to set up and work on your project:
