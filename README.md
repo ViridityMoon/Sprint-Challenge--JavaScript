@@ -27,26 +27,29 @@ Edit this document to include your answers after each question. Make sure to lea
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
 2. Explain the difference between a callback and a higher order function.
-
+    A callback function is a function that is called back into a function, particularly known as a higher order function.
 3. What is closure?
 
 4. Describe the four rules of the 'this' keyword.
-
+    Window/Global Object Binding - If it's not in anything, this refers to JS itself.
+    Implicit Binding - This is the object before the dot.
+    New Binding - Used in constructor functions, this refers to the object that is created.
+    Explicit Binding - Whenever using the call or apply method, this is explicitly defined.
 5. Why do we need super() in an extended class?
-
+    super() is what brings the 
 ### Task 1 - Project Set up
 
 Follow these steps to set up and work on your project:
 Make sure you clone the branch that the TK links to: the vnext branch, NOT master!
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] You are now ready to build this project with your preferred IDE
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 
 
